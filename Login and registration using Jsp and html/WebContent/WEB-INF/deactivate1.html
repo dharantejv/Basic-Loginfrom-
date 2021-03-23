@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<style>
+Body 
+{
+	background-color: powderblue;
+}
+
+input[type=text], input[type=password]
+ {
+	width: 95%;
+	margin: 8px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px solid green;
+}
+
+button 
+{
+	width: 10%;
+	padding: 15px;
+	margin: 10px 0px;
+	border: none;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+	<center>
+		<h1>Deactivate Account</h1>
+	</center>
+	<form method="post" action="LoginAction.jsp">
+		<center>
+
+			<table>
+
+				<tr>
+					<td><label>Email</b></label></td>
+					<td>:</td>
+					<td><input type="text" placeholder="Enter Email"
+						name="EmailID" required></td>
+					<br>
+				</tr>
+
+
+				<tr>
+					<td><label>Password</label></td>
+					<td>:</td>
+					<td><input type="password" placeholder="Enter Password"
+						name="Password" required></td>
+					<br>
+				</tr>
+			</table>
+			<br>
+
+			<table>
+
+				<tr>
+					<td></td>
+					<button type="submit">Deactivate</button>
+					</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td>Don't have an account?<a href="Registration.html">Signup</a><br></td>
+					<td></td>
+				</tr>				
+			</table>
+			
+		</center>
+	</form>
+
+</body>
+</html>
